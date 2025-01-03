@@ -5,17 +5,6 @@ Write a C code to implement the heapsort, as explained in our lectures.
 1)	Implement the heapsort algorithm using the declarations below: (70 points)
 a.	Your implementation must be consistent with the below declarations. (Minor or major error otherwise!)
 b.	Your implementations must be consistent with the pseudocode introduced in the corresponding lectures (see lecture slides). 
-![image](https://github.com/user-attachments/assets/b005e362-a69f-42f9-bc4e-c97ccd3cdaff)
-struct Heap{
-    unsigned long *arr;
-    unsigned int heaspsize, length;
-};
-
-void MAX_HEAPIFY(struct Heap *h, unsigned int i);
-void BUILD_MAX_HEAP(struct Heap *h);
-void heap_sort(struct Heap *h);
-void insertion_sort(unsigned long *arr, unsigned int length);
-void merge_sort(unsigned long *a, unsigned int left, unsigned int right);
 ![image](https://github.com/user-attachments/assets/85627c50-9f2b-4f02-8d29-9b78f944f80c)
 2)	Evaluate the Heapsort Algorithm (30 points)
 a.	Use arrays of a large size, where array_size ranges from 27 … 222
