@@ -11,14 +11,9 @@ a.	Use arrays of a large size, where array_size ranges from 27 … 222
 i.	Create a heap named 'h' and two arrays named 'f' and 'g'. Please use these exact names.
 ii.	Start indexing at 1. Leave out the first array index (it will remain unused).
 iii.	Fill all three arrays with random numbers as demonstrated below.
-    int tmp;
-    for(unsigned int i=1; i < array_size; i++){ 
-//deliberately leaving out the first array element
-        tmp = rand()%INT16_MAX;
-        f[i] = (unsigned long) tmp; 
-        g[i] = (unsigned long) tmp;
-        h->arr[i] = (unsigned long) tmp;
-    }   
+
+![image](https://github.com/user-attachments/assets/b928b745-e3f0-4dd3-bad5-42ddbd775f63)
+
 
 iv.	Ensure that all three arrays are equal (i.e., same size and content).
 b.	Measure the time it takes to perform the following sorting operations:
@@ -29,5 +24,4 @@ iv.	Use the methods provided by <time.h> (i.e., clock(), difftime(), and the con
 v.	Write the necessary C code to store the results in a comma-separated file.
 
 c.	Use Excel to generate a scatter plot, where each algorithm's measured running time 't' (in milliseconds) is plotted against log2(array_size).
-![image](https://github.com/user-attachments/assets/84299cde-3ca1-45ea-b1f2-62b481c6795c)
 
